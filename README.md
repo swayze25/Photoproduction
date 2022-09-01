@@ -8,6 +8,7 @@ or by generating all with contributions in a single run.
 I have modified the main69.cc and have made the following changes:
 1. The output Histograms are now stored in a root file named photoproduction.root* instead of being displayed on the output log file.
 2. main69.cc have been renamed as photoproduction.cc (Requires a change in makefile)
+3. included a log file which consists of the 4-momentum of all the charged final state particles created (Except the scattered beam electron)
 
 *(ROOT libraries have been enabled and necessary modifications, check line have been done in the makefile)
 
