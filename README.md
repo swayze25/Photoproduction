@@ -34,8 +34,18 @@ CUTS: (and Initializations)
 6. PhotonParton:all = on
 
 HISTOGRAMS:
-pTtotR : for the pT values of all the Charged and FInal state particles
+pTtotR : for the pT values of all the Charged and Final state particles
 momentumx, momentumy, momentumz, energy,  mass : 4-momentum and mass of the Charged and FInal state particles
 pTresresR, pTresdirR, pTdirresR, pTdirdirR : Various Contributions via Photoproduction interactions
+
+BRANCHES:
+1. events : stores the 4 momentumm of the Charged and Final state particles (px.py,pz and e)
+2. codes : stores the number of resolved or direct contribution in an event (res, dir)
+
+********************************************************************************************************************************************
+
+JETS:
+
+Contains a root file jetreco.root which stores the jets formed by a very basic FastJet program using kT algorithm with R=1.0.
 
 
