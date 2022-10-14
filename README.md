@@ -32,7 +32,7 @@ pythia.readString("Beams:eCM = 140.");
 pythia.readString("Beams:eA  = 27.5.");
 pythia.readString("Beams:eB  = 820.");
 
-## CUTS: (and Initializations)
+### CUTS: (and Initializations on Event Generation)
 1. Virtuality : Photon:Q2max = 1.0                 (pythia.readString("Photon:Q2max = 1.0");)
 2. Invariant Mass : Photon:Wmin  = 134.0           (pythia.readString("Photon:Wmin  = 134.0");)
 3. Limit partonic phat : PhaseSpace:pTHatMin", 5.0
