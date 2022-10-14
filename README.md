@@ -24,7 +24,7 @@ bool automaticMix = true;
 I am only considering the beam particles for (electron -> photon) + proton, for:
 Resolved - Resolved, and Direct - Resolved contributions only.
 
-# BEAMS and ENERGIES:
+## BEAMS and ENERGIES:
 Beam1 : 11 : electron ("PDF:beamA2gamma = on" ie photons are produced by electrons)
 Beam1 : 2212 : proton
 HERA Energies: //CoM Energy ranges from 134–277 GeV at HERA 
@@ -32,7 +32,7 @@ pythia.readString("Beams:eCM = 140.");
 pythia.readString("Beams:eA  = 27.5.");
 pythia.readString("Beams:eB  = 820.");
 
-# CUTS: (and Initializations)
+## CUTS: (and Initializations)
 1. Virtuality : Photon:Q2max = 1.0                 (pythia.readString("Photon:Q2max = 1.0");)
 2. Invariant Mass : Photon:Wmin  = 134.0           (pythia.readString("Photon:Wmin  = 134.0");)
 3. Limit partonic phat : PhaseSpace:pTHatMin", 5.0
@@ -40,19 +40,19 @@ pythia.readString("Beams:eB  = 820.");
 5. HardQCD:all = on
 6. PhotonParton:all = on
 
-# HISTOGRAMS:
+## HISTOGRAMS:
 pTtotR : for the pT values of all the Charged and Final state particles
 momentumx, momentumy, momentumz, energy,  mass : 4-momentum and mass of the Charged and FInal state particles
 pTresresR, pTresdirR, pTdirresR, pTdirdirR : Various Contributions via Photoproduction interactions
 
-# BRANCHES:
+## BRANCHES:
 1. combinedevents : stores the 4 momentumm of the Charged and Final state particles (px.py,pz and e)
 2. qqbar2qqbar : stores the 4 momentumm of the Charged and Final state particles for quark initiated processes
 3. gg2gg : stores the 4 momentumm of the Charged and Final state particles for gluon initiated processes
 
 --------------------------------------------------------------------------------------------------------------
 
-JETS:
+## JETS:
 
 Contains a root file jets.root which stores the jets formed by a standalone FastJet program using kT algorithm.
 Read the jets.root for the output
