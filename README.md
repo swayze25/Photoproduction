@@ -27,7 +27,7 @@ Resolved - Resolved, and Direct - Resolved contributions only.
   - Beam2 : 2212 : proton
   - Beams:eCM = 140. : com energy
   
-  > HERA Energies: //CoM Energy ranges from 134–277 GeV at HERA 
+HERA Energies: //CoM Energy ranges from 134–277 GeV at HERA 
     - pythia.readString("Beams:eCM = 140.");	 
     - pythia.readString("Beams:eA  = 27.5.");
     - pythia.readString("Beams:eB  = 820.");
