@@ -23,12 +23,14 @@ I am only considering the beam particles for (electron -> photon) + proton, for:
 Resolved - Resolved, and Direct - Resolved contributions only.
 
 ## BEAMS and ENERGIES:
-Beam1 : 11 : electron ("PDF:beamA2gamma = on" ie photons are produced by electrons)
-Beam1 : 2212 : proton
-HERA Energies: //CoM Energy ranges from 134–277 GeV at HERA 
-pythia.readString("Beams:eCM = 140.");	 
-pythia.readString("Beams:eA  = 27.5.");
-pythia.readString("Beams:eB  = 820.");
+  Beam1 : 11 : electron ("PDF:beamA2gamma = on" ie photons are produced by electrons)
+  Beam1 : 2212 : proton
+  Beams:eCM = 140. : com energy
+  
+  HERA Energies: //CoM Energy ranges from 134–277 GeV at HERA 
+    pythia.readString("Beams:eCM = 140.");	 
+    pythia.readString("Beams:eA  = 27.5.");
+    pythia.readString("Beams:eB  = 820.");
 
 ### CUTS: (and Initializations on Event Generation)
 1. Virtuality : Photon:Q2max = 1.0                 (pythia.readString("Photon:Q2max = 1.0");)
