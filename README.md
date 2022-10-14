@@ -5,14 +5,12 @@ Main program to generate charged hadron spectra from photon-initiated
 hard processes, by combining sub-runs with direct or resolved photons
 or by generating all with contributions in a single run (automaticmix)
 
-I have modified the main69.cc and have made the following changes:
+I have modified the main69.ccn(PYTHIA8 example folder) and have made the following changes:
 1. The event generator file is labelled as 'eventgen.cc' 
   a. The macro has to be made (requires a makefile) so it is system-specific for now (cant run on other system)
   b. It requires ROOT+Pythia libraries, the events are stored in a log file 'outevents',
      and the events are stored as 4mom in the ROOT file 'data.root'
 2. Open the ROOT file 'data.root' to see the 4mom of charged final states hadrons stored in respective branches.
-
-*(ROOT libraries have been enabled and necessary modifications, check line have been done in the makefile)
 
 --------------------------------------------------------------------------------------------------------------
 
