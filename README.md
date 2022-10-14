@@ -27,10 +27,10 @@ Resolved - Resolved, and Direct - Resolved contributions only.
   - Beam2 : 2212 : proton
   - Beams:eCM = 140. : com energy
   
-HERA Energies: //CoM Energy ranges from 134–277 GeV at HERA 
-    - pythia.readString("Beams:eCM = 140.");	 
-    - pythia.readString("Beams:eA  = 27.5.");
-    - pythia.readString("Beams:eB  = 820.");
+HERA Energies: CoM Energy ranges from 134–277 GeV at HERA 
+1. pythia.readString("Beams:eCM = 140.");	 
+2. pythia.readString("Beams:eA  = 27.5.");
+3. pythia.readString("Beams:eB  = 820.");
 
 ### CUTS: (and Initializations on Event Generation)
 1. Virtuality : Photon:Q2max = 1.0                 (pythia.readString("Photon:Q2max = 1.0");)
