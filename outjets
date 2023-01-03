@@ -1,0 +1,88 @@
+#--------------------------------------------------------------------------
+#                         FastJet release 3.4.0
+#                 M. Cacciari, G.P. Salam and G. Soyez                  
+#     A software package for jet finding and analysis at colliders      
+#                           http://fastjet.fr                           
+#	                                                                      
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].   
+#                                                                       
+# FastJet is provided without warranty under the GNU GPL v2 or higher.  
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code
+# and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+
+=======================================================================================
+
+Number of Combined Events Read : 99962 (Constituents : 2514636)
+Number of Resolved Events : 52723 (Constituents : 1450520)
+Number of Direct Events : 47239 (Constituents : 1064116)
+Number of Quark initiated Events : 0 (Constituents : 968792)
+Number of Gluon initiated Events : 0 (Constituents : 188806)
+
+
+=======================================================================================
+
+#Jets formed (with Combined Jet Constituents : 2514636) : 1407
+		Minimum Etmin Combined: 17 GeV
+		R-Combined: 1
+		PseudoRapidity Range : -1 to 0
+		Mean SubJet Multiplicity for Combined Jets : 1454
+
+#Jets formed (with Resolved Jet Events, Constituents : 1450520) : 2583
+		Minimum Etmin Resolved: 14 GeV
+		R-Resolved: 1
+		PseudoRapidity Range : -1 to 2.5
+		Mean SubJet Multiplicity for Resolved Jets : 11187
+
+#Jets formed (with Direct Jet Events) Constituents : 1064116) : 2459
+		Minimum Etmin Direct: 14 GeV
+		R-Direct: 1
+		PseudoRapidity Range : -1 to 2.5
+		Mean SubJet Multiplicity for Direct Jets : 9634
+
+---------------------------------------------------------------------------------------
+
+#Jets formed (with quark initiated processes, Constituents : 968792) : 0
+		Minimum Etmin Quark: 14 GeV
+		R-quark: 1
+		PseudoRapidity Range : -1 to 2.5
+#Subjets formed (with quark initiated processes) : 0
+
+#Jets formed (with gluon initiated processes, Constituents : 188806) : 0
+		Minimum Etmin Gluon: 14 GeV
+		R-gluon: 1
+		PseudoRapidity Range : -1 to 2.5
+#Subjets formed (with gluon initiated processes) : 0
+
+=======================================================================================
+Differential Jet size for r(0.35) EtJetMin(17) :: 0.736184
+
+=======================================================================================
+Combined Jets	:	ycut (x-axis) = 0.1 :: <n_C> (y-axis) = 1.0334
+Direct Jets	:	ycut (x-axis) = 0.0005 :: <n_D> (y-axis) = 3.91785
+Resolved Jets	:	ycut (x-axis) = 0.0005 :: <n_R> (y-axis) = 4.33101
+Quark Jets	:	ycut (x-axis) = 0.1 :: <n_Q> (y-axis) = 1.00337
+Gluon Jets	:	ycut (x-axis) = 0.1 :: <n_G> (y-axis) = 1.18487
+
+=======================================================================================
+Total event scattering:
+QQ Scattering: 41373	|	Fraction: 41.388728
+GG Scattering: 5645	|	Fraction: 5.647146
+GQ Scattering: 52674	|	Fraction: 52.694024
+
+=======================================================================================
+Differential Shape for r(0.350000) EtJetMin(17.000000)
+Combined Jet : 0.736184
+Quark Jet : 0.412869
+Gluon Jet : 2.044640
+
+=======================================================================================
+For Thick Jets:
+	QQ Scattering: 77	|	Fraction: 32.352941
+	GG Scattering: 24	|	Fraction: 10.084034
+	GQ Scattering: 137	|	Fraction: 57.563025
+For Thin Jets:
+	QQ Scattering: 486	|	Fraction: 54.668166
+	GG Scattering: 4	|	Fraction: 0.449944
+	GQ Scattering: 399	|	Fraction: 44.881890
